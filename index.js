@@ -27,8 +27,8 @@ const start = () => {
         const text = msg.text;
         const chatId = msg.chat.id
         if (text === '/start') {
-            await bot.sendMessage(chatId, 'Welcome!');
-            return bot.sendSticker(chatId, 'https://tlgrm.ru/_/stickers/b0d/85f/b0d85fbf-de1b-4aaf-836c-1cddaa16e002/39.jpg')
+            await bot.sendSticker(chatId, 'https://cdn.tlgrm.app/stickers/8cd/11b/8cd11bf5-6935-465a-b247-c4cddd6f409f/192/1.webp')
+            return bot.sendMessage(chatId, 'Welcome!');
         }
 
         if (text === '/info') {
